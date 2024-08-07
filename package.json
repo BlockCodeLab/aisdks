@@ -1,0 +1,16 @@
+{
+  "name": "@blockcode/aisdks",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun-build",
+    "dev": "bun-build --watch ./src"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "bun-build": "github:kankungyip/bun-build"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
