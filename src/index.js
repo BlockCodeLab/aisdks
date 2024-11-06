@@ -1,1 +1,7 @@
-export { askSpark, provideAskSparkFunctionJs } from './sparkai';
+import { askSpark } from './sparkai';
+
+window.ai = {
+  askSpark,
+};
+
+export { askSpark };
